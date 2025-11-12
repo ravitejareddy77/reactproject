@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Devonshire&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+RO:wght@100..400&family=Rancho&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    /* height: 10vh; */
+    border: 3px solid white;
+    display: flex;
+    padding:20px 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    font-size: 20px;
+     font-family: "Unna", serif;
+
+}
+
+#logo{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+     font-family: "Unna", serif;
+    
+}
+
+#createbtn{
+    /* color: lawngreen; */
+    border-radius: 20px;
+    font-size: 19px;
+    background-color:seagreen;
+    /* color: white; */
+}
+
+
+#createbtn:hover{
+    background-color:royalblue;
+}
+
+#crejnl{
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    /* color: cyan; */
+    background-color: cornflowerblue;
+    font-family: "Unna", serif;
+}
+
+#journal{
+    border: 2px solid black;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+
+
+}
+#form{
+    width: 700px;
+    border: 2px solid beige;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: white;
+}
+
+form>input{
+/* height: 30; */
+padding: 10px;
+border-radius: 5px;
+border: 2px solid skyblue;
+}
+
+form>textarea{
+    border-radius: 5px;
+    border: 2px solid skyblue   ;
+    padding: 10px;
+}
+
+select{
+     border-radius: 5px;
+    border: 2px solid skyblue;
+    padding: 10px;
+}
+
+#btns{
+display: flex;
+justify-content: space-between;
+
+}
+
+button{
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+     font-family: "Unna", serif;
+
+}
+#submit{
+    background-color: seagreen;
+    font-size: 20px;
+}
